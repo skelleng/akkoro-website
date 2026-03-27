@@ -4,11 +4,13 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Home - Akkoro</title>
+        <meta name="description" content="Akkoro Pacific delivers mission-ready IT consulting, cybersecurity, AI/ML, and cloud solutions to government agencies and enterprises across the U.S. Pacific region." />
+        <meta name="author" content="Akkoro Pacific LLC" />
+        <title>Akkoro Pacific — Advanced Technology Solutions</title>
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/akkoro-pacific.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="icon" type="image/svg+xml" href="assets/img/octopus/akkoro-pacific.svg" />
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
@@ -17,181 +19,341 @@
         <div id="layoutDefault">
             <div id="layoutDefault_content">
                 <main>
+                    <!-- Navigation -->
                     <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-dark fixed-top">
-                        <div class="container container">
-                            <a class="navbar-brand text-white" href="/">Akkoro</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="container">
+                            <a class="navbar-brand" href="/">
+                                <img src="assets/img/octopus/akkoro-pacific.svg" alt="" style="height:52px; width:auto;"/>
+                                AKKORO PACIFIC
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                                <i data-feather="menu"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarMain">
                                 <ul class="navbar-nav ml-auto mr-lg-5">
                                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
+
+                    <!-- Hero -->
                     <header class="page-header page-header-dark bg-gradient-primary-to-secondary">
                         <div class="page-header-content pt-10">
                             <div class="container">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-6" data-aos="fade-up">
-                                        <h1 class="page-header-title">Heal the world through technology.</h1>
-                                        <p class="page-header-text mb-5">Our mission is to <b class="text-pink">disrupt</b> broken systems and <b class="text-pink">empower</b> people along the way.</p>
-                                        <a class="btn btn-pink btn-lg mt-3" href="/services">Book a Consultation</a>
+                                    <!-- Left: copy -->
+                                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-up">
+                                        <div class="hero-badge">Honolulu, HI &nbsp;·&nbsp; USINDOPACOM AOR</div>
+                                        <h1 class="page-header-title">IT infrastructure and cybersecurity for U.S. Pacific operations.</h1>
+                                        <div class="hero-divider"></div>
+                                        <p class="page-header-text mb-4">Akkoro Pacific supports government agencies, defense contractors, and territorial enterprises across Hawaii, Guam, CNMI, and American Samoa.</p>
+                                        <div class="pacific-line mb-4">
+                                            <span>Hawaii</span> · <span>Guam</span> · <span>CNMI</span> · <span>American Samoa</span> · <span>Pacific CONUS</span>
+                                        </div>
+                                        <a class="btn btn-gold btn-lg mt-2 mr-3" href="contact.html">Contact</a>
+                                        <a class="btn btn-outline-navy btn-lg mt-2" href="services.html">Capabilities</a>
                                     </div>
-                                    <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50"><img class="img-fluid" src="assets/img/octopus/1.svg" /></div>
+                                    <!-- Right: terminal panel -->
+                                    <div class="col-lg-6 d-none d-lg-flex justify-content-end" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="hero-terminal">
+                                            <div class="terminal-titlebar">
+                                                <span class="terminal-dot"></span>
+                                                <span class="terminal-dot"></span>
+                                                <span class="terminal-dot"></span>
+                                                <span class="terminal-label">akkoro-pacific // secure ops</span>
+                                            </div>
+                                            <div class="terminal-body">
+                                                <div class="t-line t-prompt-line"><span class="t-prompt">$</span> <span class="t-cmd">whois akkoro-pacific</span></div>
+                                                <div class="t-line t-sep">──────────────────────────────────────</div>
+                                                <div class="t-line"><span class="t-key">ENTITY</span><span class="t-val">Akkoro Pacific LLC</span></div>
+                                                <div class="t-line"><span class="t-key">TYPE</span><span class="t-val">U.S. Small Business</span></div>
+                                                <div class="t-line"><span class="t-key">AOR</span><span class="t-val">USINDOPACOM</span></div>
+                                                <div class="t-line"><span class="t-key">COVERAGE</span><span class="t-val">HI · GU · CNMI · AS</span></div>
+                                                <div class="t-line t-sep">──────────────────────────────────────</div>
+                                                <div class="t-line"><span class="t-key">CLEARANCE</span><span class="t-val">TS/SCI supported</span></div>
+                                                <div class="t-line"><span class="t-key">CMMC</span><span class="t-val">Level 2 ready</span></div>
+                                                <div class="t-line"><span class="t-key">FEDRAMP</span><span class="t-val">Moderate aligned</span></div>
+                                                <div class="t-line"><span class="t-key">NIST</span><span class="t-val">800-171 / 800-53</span></div>
+                                                <div class="t-line"><span class="t-key">ITAR</span><span class="t-val">Aware</span></div>
+                                                <div class="t-line t-sep">──────────────────────────────────────</div>
+                                                <div class="t-line"><span class="t-key">DOMAINS</span><span class="t-val">Cyber · Cloud · AI/ML · C4ISR</span></div>
+                                                <div class="t-line"><span class="t-key">VEHICLES</span><span class="t-val">Federal · DoD · State · Territorial</span></div>
+                                                <div class="t-line"><span class="t-key">SET-ASIDE</span><span class="t-val">Small business eligible</span></div>
+                                                <div class="t-line mt-2"><span class="t-prompt">$</span> <span class="t-cursor"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="svg-border-waves text-white">
-                            <svg class="wave" style="pointer-events: none" fill="currentColor" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
-                                <defs>
-                                    <style>
-                                        .a {
-                                            fill: none;
-                                        }
-                                        .b {
-                                            clip-path: url(#a);
-                                        }
-                                        .d {
-                                            opacity: 0.5;
-                                            isolation: isolate;
-                                        }
-                                    </style>
-                                    <clippath id="a"><rect class="a" width="1920" height="75"></rect></clippath>
-                                </defs>
-                                <title>wave</title>
-                                <g class="b"><path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path></g>
-                                <g class="b"><path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path></g>
-                                <g class="b"><path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path></g>
-                                <g class="b"><path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path></g>
-                            </svg>
                         </div>
                     </header>
-                    <section class="bg-white py-5">
-                        <div class="container" id="about">
-                            <h2 class="text-center text-primary mb-4">About Akkoro LLC</h2>
-                            <p class="lead text-center mb-4">Akkoro LLC is a premier IT consulting firm specializing in strategic technology solutions, from cloud architecture to cybersecurity.</p>
-                            <div class="text-center"><a class="btn btn-outline-primary btn-lg" href="/about">Learn More</a></div>
-                        </div>
-                        <div class="svg-border-waves text-light">
-                            <svg class="wave" style="pointer-events: none" fill="currentColor" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
-                                <defs>
-                                    <style>
-                                        .a {
-                                            fill: none;
-                                        }
-                                        .b {
-                                            clip-path: url(#a);
-                                        }
-                                        .d {
-                                            opacity: 0.5;
-                                            isolation: isolate;
-                                        }
-                                    </style>
-                                    <clippath id="a"><rect class="a" width="1920" height="75"></rect></clippath>
-                                </defs>
-                                <title>wave</title>
-                                <g class="b"><path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path></g>
-                                <g class="b"><path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path></g>
-                                <g class="b"><path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path></g>
-                                <g class="b"><path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path></g>
-                            </svg>
-                        </div>
-                    </section>
-                    <section class="bg-light py-5">
-                        <div class="container" id="services">
-                            <h2 class="text-center text-primary mb-4">Our Services</h2>
-                            <div class="row mt-4">
-                                <div class="col-md-4 mb-4" data-aos="fade-up">
-                                    <div class="card h-100 shadow-sm text-center">
-                                        <div class="card-body">
-                                            <i class="fas fa-cloud fa-2x text-primary mb-3"></i>
-                                            <h5 class="card-title">Cloud & Infrastructure</h5>
-                                            <p class="card-text">Design, deployment, and management of AWS, Azure, and GCP environments.</p>
-                                            <a class="btn btn-outline-primary mt-3" href="/services#cloud">Explore</a>
-                                        </div>
-                                    </div>
+
+                    <!-- Mission strip -->
+                    <section class="mission-strip py-6">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                                    <div class="section-label mb-3">Why This Matters</div>
+                                    <p class="mission-statement">The Pacific has unique infrastructure constraints, latency realities, and procurement channels that most firms have never encountered.</p>
+                                    <p style="color:rgba(122,154,191,0.6); font-size:0.85rem; line-height:1.8; margin-top:1.25rem;">
+                                        We operate here full-time. Not as a regional satellite of a mainland firm — as the primary organization.
+                                    </p>
                                 </div>
-                                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="card h-100 shadow-sm text-center">
-                                        <div class="card-body">
-                                            <i class="fas fa-shield-alt fa-2x text-primary mb-3"></i>
-                                            <h5 class="card-title">Cybersecurity</h5>
-                                            <p class="card-text">Security assessments, threat mitigation, and monitoring services.</p>
-                                            <a class="btn btn-outline-primary mt-3" href="/services#security">Explore</a>
+                                <div class="col-lg-6 offset-lg-1" data-aos="fade-left">
+                                    <div class="row">
+                                        <div class="col-sm-4 mb-4 mb-sm-0">
+                                            <div class="mission-pillar">
+                                                <div class="mission-pillar-label">Compliance</div>
+                                                <div class="mission-pillar-title">Cleared &amp; Credentialed</div>
+                                                <div class="mission-pillar-text">TS/SCI supported. CMMC Level 2, NIST 800-171, and FedRAMP Moderate experience.</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                                    <div class="card h-100 shadow-sm text-center">
-                                        <div class="card-body">
-                                            <i class="fas fa-cogs fa-2x text-primary mb-3"></i>
-                                            <h5 class="card-title">Managed Services</h5>
-                                            <p class="card-text">Proactive IT support, helpdesk, and performance optimization.</p>
-                                            <a class="btn btn-outline-primary mt-3" href="/services#managed">Explore</a>
+                                        <div class="col-sm-4 mb-4 mb-sm-0">
+                                            <div class="mission-pillar">
+                                                <div class="mission-pillar-label">Geography</div>
+                                                <div class="mission-pillar-title">Regionally Based</div>
+                                                <div class="mission-pillar-text">Headquartered in the Pacific. Familiar with island logistics, bandwidth constraints, and territorial procurement.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="mission-pillar">
+                                                <div class="mission-pillar-label">Approach</div>
+                                                <div class="mission-pillar-title">No Products. Just Work.</div>
+                                                <div class="mission-pillar-text">We assess requirements and deliver solutions. From a single hardened workstation to a multi-site network deployment.</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="svg-border-waves text-dark">
-                            <svg class="wave" style="pointer-events: none" fill="currentColor" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
-                                <defs>
-                                    <style>
-                                        .a {
-                                            fill: none;
-                                        }
-                                        .b {
-                                            clip-path: url(#a);
-                                        }
-                                        .d {
-                                            opacity: 0.5;
-                                            isolation: isolate;
-                                        }
-                                    </style>
-                                    <clippath id="a"><rect class="a" width="1920" height="75"></rect></clippath>
-                                </defs>
-                                <title>wave</title>
-                                <g class="b"><path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path></g>
-                                <g class="b"><path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path></g>
-                                <g class="b"><path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path></g>
-                                <g class="b"><path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path></g>
-                            </svg>
+                    </section>
+
+                    <!-- About strip -->
+                    <section class="bg-white py-6" id="about">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+                                    <div class="section-label">About Akkoro Pacific</div>
+                                    <h2 class="section-title">Akkoro Pacific LLC</h2>
+                                    <div class="section-underline" style="margin-left:0;"></div>
+                                    <p style="color:#5A6A7E; line-height:1.8; font-size:0.93rem;">
+                                        An IT consulting firm serving government, defense, and enterprise clients across the U.S. Pacific. We work in Hawaii, Guam, CNMI, and American Samoa — in the actual operating environment, not remotely from the mainland.
+                                    </p>
+                                    <p style="color:#5A6A7E; line-height:1.8; font-size:0.93rem;">
+                                        Eligible for federal, DoD, state, and territorial procurement, including small business set-asides.
+                                    </p>
+                                    <a class="btn btn-outline-gold mt-3" href="about.html">About</a>
+                                </div>
+                                <div class="col-lg-6 offset-lg-1" data-aos="fade-left">
+                                    <div style="border-left: 2px solid #E8EDF5; padding-left: 2rem;">
+                                        <p style="font-size:0.85rem; color:#5A6A7E; line-height:1.9; margin:0;">
+                                            Cybersecurity &amp; compliance<br>
+                                            AI / ML integration<br>
+                                            Cloud migration &amp; architecture<br>
+                                            On-premises infrastructure<br>
+                                            Defense IT &amp; C4ISR<br>
+                                            Remote field IT &amp; repair<br>
+                                            Alternative energy systems<br>
+                                            Datacenter logistics
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
-                    <section class="bg-dark py-5">
-                        <div class="container" id="contact">
-                            <h2 class="text-center text-light mb-4">Contact Us</h2>
-                            <p class="lead text-center text-light mb-4">Have questions or want to work together? Reach out at <a class="text-pink" href="mailto:akkorotech@protonmail.ch">akkorotech@protonmail.ch</a></p>
-                            <div class="text-center"><a class="btn btn-outline-light btn-lg" href="mailto:akkorotech@protonmail.ch?subject=Inquiry">Send a Message</a></div>
+
+                    <!-- Services -->
+                    <section style="background: var(--ap-section-bg); padding: 5rem 0;" id="services">
+                        <div class="container">
+                            <div class="text-center mb-5" data-aos="fade-up">
+                                <div class="section-label">What We Do</div>
+                                <h2 class="section-title">Core Capabilities</h2>
+                                <div class="section-underline"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                                            <h5 class="card-title">Cybersecurity</h5>
+                                            <p class="card-text">Zero-trust architecture, threat intelligence, SIEM/SOC operations, vulnerability management, and compliance for CMMC, NIST, and RMF frameworks.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">CMMC</span>
+                                                <span class="service-tag">Zero Trust</span>
+                                                <span class="service-tag">SOC/SIEM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="60">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-brain"></i></div>
+                                            <h5 class="card-title">AI &amp; Machine Learning</h5>
+                                            <p class="card-text">Mission-critical AI/ML strategy, model development, MLOps pipelines, and deployment for intelligence, logistics, and operational analytics.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">MLOps</span>
+                                                <span class="service-tag">Gov AI</span>
+                                                <span class="service-tag">Analytics</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="120">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                                            <h5 class="card-title">Cloud Migration</h5>
+                                            <p class="card-text">End-to-end migration strategies to AWS GovCloud, Azure Government, and DoD IL environments — with full security and compliance validation.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">AWS GovCloud</span>
+                                                <span class="service-tag">Azure Gov</span>
+                                                <span class="service-tag">FedRAMP</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="60">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-server"></i></div>
+                                            <h5 class="card-title">On-Premises Infrastructure</h5>
+                                            <p class="card-text">Design and deployment of hardened on-prem environments, data centers, secure enclaves, and classified network architecture.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">Data Center</span>
+                                                <span class="service-tag">Secure Enclave</span>
+                                                <span class="service-tag">SCIF</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="120">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                                            <h5 class="card-title">Cloud Computing &amp; Architecture</h5>
+                                            <p class="card-text">Multi-cloud architecture, hybrid cloud design, DevSecOps pipelines, containerization, and infrastructure-as-code for scalable government platforms.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">DevSecOps</span>
+                                                <span class="service-tag">Kubernetes</span>
+                                                <span class="service-tag">IaC</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="180">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-satellite-dish"></i></div>
+                                            <h5 class="card-title">Defense IT &amp; C4ISR</h5>
+                                            <p class="card-text">Command, control, communications, and intelligence systems support for DoD and defense prime contractors operating in the Pacific AOR.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">DoD IL4/IL5</span>
+                                                <span class="service-tag">C4ISR</span>
+                                                <span class="service-tag">Pacific AOR</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-tools"></i></div>
+                                            <h5 class="card-title">Remote IT &amp; Field Repair</h5>
+                                            <p class="card-text">On-site technician dispatch and remote diagnostics for Pacific island territories and forward installations where mainland vendor reach doesn't reach.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">Field Services</span>
+                                                <span class="service-tag">Break-Fix</span>
+                                                <span class="service-tag">Help Desk</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="60">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-solar-panel"></i></div>
+                                            <h5 class="card-title">Alternative Energy</h5>
+                                            <p class="card-text">Solar PV design, battery storage, and microgrid consulting for government facilities and military installations across the Pacific.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">Solar</span>
+                                                <span class="service-tag">BESS</span>
+                                                <span class="service-tag">EO 14057</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="120">
+                                    <div class="card service-card">
+                                        <div class="card-body">
+                                            <div class="service-icon"><i class="fas fa-truck-moving"></i></div>
+                                            <h5 class="card-title">Datacenter Logistics</h5>
+                                            <p class="card-text">Physical datacenter relocations, rack &amp; stack, secure asset disposition, and ITAM with full chain-of-custody documentation for government programs.</p>
+                                            <div class="service-tags">
+                                                <span class="service-tag">Relocation</span>
+                                                <span class="service-tag">NIST 800-88</span>
+                                                <span class="service-tag">ITAM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a class="btn btn-gold" href="services.html">View All Capabilities</a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact CTA -->
+                    <section class="bg-navy py-6" id="contact">
+                        <div class="container text-center" data-aos="fade-up">
+                            <div class="section-label" style="color: var(--ap-gold);">Get In Touch</div>
+                            <h2 class="section-title-light mb-3">Ready to Work Together?</h2>
+                            <p style="color: var(--ap-text-muted); max-width:520px; margin:0 auto 2rem; font-size:0.95rem;">Whether you're pursuing a government contract, planning a cloud migration, or standing up a cybersecurity program — we're ready to support your mission.</p>
+                            <a class="btn btn-gold btn-lg mr-3" href="contact.html">Contact Us</a>
+                            <a class="btn btn-outline-navy btn-lg" href="mailto:akkorotech@protonmail.ch">akkorotech@protonmail.ch</a>
                         </div>
                     </section>
                 </main>
             </div>
+
             <div id="layoutDefault_footer">
-                <footer class="footer py-3 bg-dark text-light">
-                    <div class="container text-center">
-                        <div class="footer-brand mb-2">Akkoro</div>
-                        <p class="mb-2"></p>
-                        <div class="icon-list-social mb-3">
-                            <a class="icon-list-social-link" href="javascript:void(0);"><i class="fab fa-github"></i></a><a class="icon-list-social-link" href="javascript:void(0);"><i class="fab fa-medium"></i></a>
+                <footer class="footer py-4">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 text-center text-lg-left mb-3 mb-lg-0">
+                                <div class="footer-brand">Akkoro Pacific</div>
+                                <div class="footer-tagline mt-1">Advanced Technology Solutions</div>
+                            </div>
+                            <div class="col-lg-4 text-center mb-3 mb-lg-0">
+                                <div class="pacific-line">
+                                    <span>Hawaii</span> · <span>Guam</span> · <span>CNMI</span> · <span>American Samoa</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-right">
+                                <div class="icon-list-social mb-2">
+                                    <a class="icon-list-social-link" href="javascript:void(0);" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                    <a class="icon-list-social-link" href="javascript:void(0);" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                                <small>© 2026 Akkoro Pacific LLC. All rights reserved.</small>
+                            </div>
                         </div>
-                        <small>© 2025 Akkoro. All rights reserved.</small>
                     </div>
                 </footer>
             </div>
         </div>
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-            AOS.init({
-                disable: 'mobile',
-                duration: 600,
-                once: true
-            });
+            AOS.init({ disable: 'mobile', duration: 600, once: true });
+            feather.replace();
         </script>
     </body>
 </html>
